@@ -1,0 +1,27 @@
+package day10_Thread;
+
+public class SaramTalk {
+	
+	private String name;
+	
+	public SaramTalk(String name) {
+		this.name	=	name;
+	}	// ›1ê $.
+	
+	public void speak() {
+		for(int i=0; i<5;i++) {
+			System.out.println(name+"t –\‰.");
+		}
+	}
+	
+	
+	public static void main(String[] args) {
+		SaramTalk s1 = new SaramTalk("M8Ÿ");
+		SaramTalk s2 = new SaramTalk("t‡");
+		SaramTalk s3 = new SaramTalk(",");
+		s1.speak();
+		s2.speak();
+		s3.speak();
+	}
+
+}

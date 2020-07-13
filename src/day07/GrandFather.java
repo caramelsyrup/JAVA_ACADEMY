@@ -1,0 +1,16 @@
+package day07;
+
+public class GrandFather {
+	String name = "할아버지";
+	
+	public GrandFather() {
+		System.out.println(name+" 생성자");
+	}
+	
+	public void grandPrint() {
+		System.out.println("grandPrint method");
+	}
+	
+	
+	
+}
